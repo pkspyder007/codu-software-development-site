@@ -267,3 +267,13 @@ hr {
   --background: var(--black);
   --textColor: var(--lightGrey);
 }
+
+/* Remove image ghosting */
+    
+img{
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
